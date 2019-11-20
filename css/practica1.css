@@ -34,3 +34,27 @@ table {
 .pulido {
     background-color:#0080ff;
 }
+
+.pulido:hover{
+    background-color: #ff4d4d;
+}
+
+.bardaji:hover{
+    background-color: #2fe6e6;
+}
+
+.espasa:hover{
+    background-color: #27d360;
+}
+
+.caguti:hover{
+    background-color: #8b4fcf;
+}
+
+.tuto:hover{
+    background-color: #259191;
+}
+
+.montesinos:hover{
+    background-color: #c06e37;
+}
