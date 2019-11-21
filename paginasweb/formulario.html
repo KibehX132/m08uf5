@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/formulario.css"/>
+    <head>
+        <title>Currículum</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+      <h1>Currículum</h1>
+      <form action="form.html" method="get" enctype="multipart/form-data">
+            <fieldset>
+                <fieldset class="uno">
+                    <legend class="Leyenda">Informació Básica</legend>
+                    <label for="id_text">Nom i Cognoms</label><br />
+                    <input type="text" id="id_text" name="n_text" value="" placeholder="Nombre y apellidos"/><br />
+                    <label for="id_number">Edat</label><br />
+                    <input type="number" id="id_number" name="n_number" value="0"/><br />
+                    <label for="id_email">Correu</label><br />
+                    <input type="email" id="id_email" name="n_email" value="" placeholder="ejemplo@ejemplo.com"/><br />            
+                    <label for="id_date">Data de naixament</label><br />
+                    <input type="date" id="id_date" name="n_date" value="dd/mm/aaaa"/>
+                </fieldset>
+                <fieldset class="dos">
+                    <legend class="Leyenda">Nacionalitat</legend>
+                    <input type="radio" id="id_radio1" name="n_radio" value="a" checked/>Espanyola
+                    <input type="radio" id="id_radio2" name="n_radio" value="c"/>Anglesa
+                    <input type="radio" id="id_radio3" name="n_radio" value="g"/>Xinesa
+                    <input type="radio" id="id_radio4" name="n_radio" value="t"/>Canadenca
+                </fieldset>
+                <fieldset class="tres">
+                    <legend class="Leyenda">Estudis</legend>
+                    <select id="id_select" name="n_select">
+                    <option value="default" selected>Selecciona...</option>
+                    <option value="a">ESO</option>
+                    <option value="c">Cicle Mitjà</option>
+                    <option value="g">Cilce Superior</option>
+                    <option value="t">Universitat</option>
+                    </select>
+                </fieldset>
+                <fieldset class="cuatro">
+                    <legend class="Leyenda">Idiomes</legend>
+                    <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>Català
+                    <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c"/>Espanyol
+                    <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"/>Anglès
+                    <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"/>Francès
+                </fieldset>
+                <fieldset class="cinco">
+                    <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
+                    <input type="reset" id="id_reset" name="n_reset" value="Cancelar"/>
+                </fieldset>
+            </fieldset>
+        </form>
+    </body>
+</html>
