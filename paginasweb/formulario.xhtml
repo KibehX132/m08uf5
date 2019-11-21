@@ -2,26 +2,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Títol de la pestanya</title>
+        <title>Currículum</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <form action="form.html" method="get" enctype="multipart/form-data">
+      <h1>Currículum</h1>
+      <form action="form.html" method="get" enctype="multipart/form-data">
             <fieldset>
                 <fieldset>
                     <legend><h2>Información Básica</h2></legend>
-                    <h1></h1>
-                    <label for="id_text">Tu nombre y apellidos</label><br />
-                    <input type="text" id="id_text" name="n_text" value="" placeholder="Nombre y apellidos"/>
-                    <h1></h1>
-                    <label for="id_number">Tu edad</label><br />
-                    <input type="number" id="id_number" name="n_number" value="0"/>
-                    <h1></h1>
-                    <label for="id_email">Tu correo</label><br />
-                    <input type="email" id="id_email" name="n_email" value="" placeholder="ejemplo@ejemplo.com"/>
+                    <label for="id_text">Nom i Cognoms</label><br />
+                    <input type="text" id="id_text" name="n_text" value="" placeholder="Nombre y apellidos"/><br />
+                    <label for="id_number">Edat</label><br />
+                    <input type="number" id="id_number" name="n_number" value="0"/><br />
+                    <label for="id_email">Correu</label><br />
+                    <input type="email" id="id_email" name="n_email" value="" placeholder="ejemplo@ejemplo.com"/><br />            
+                  <label for="id_date">Data de naixament</label><br />
+                <input type="date" id="id_date" name="n_date" value="dd/mm/aaaa"/>
                 </fieldset>
-                <fieldset>
+                 <fieldset>
+                <label>Nacionalitat</label><br />
+                <input type="radio" id="id_radio1" name="n_radio" value="a" checked/>Espanyola
+                <input type="radio" id="id_radio2" name="n_radio" value="c"/>Anglesa
+                <input type="radio" id="id_radio3" name="n_radio" value="g"/>Xinesa
+                <input type="radio" id="id_radio4" name="n_radio" value="t"/>Canadenca
+              </fieldset>
+              <fieldset>
+                <label for="id_select">Estudis</label><br />
+                <select id="id_select" name="n_select">
+                    <option value="default" selected>Selecciona...</option>
+                    <option value="a">ESO</option>
+                    <option value="c">Cicle Mitjà</option>
+                    <option value="g">Cilce Superior</option>
+                    <option value="t">Universitat</option>
+                  </fieldset>
+                  <fieldset>
                     <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
                     <input type="reset" id="id_reset" name="n_reset" value="Cancelar"/>
                 </fieldset>
@@ -29,4 +45,3 @@
         </form>
     </body>
 </html>
-
