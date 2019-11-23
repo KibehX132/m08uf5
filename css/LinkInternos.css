@@ -1,0 +1,64 @@
+body
+{
+    font-family: 'Cookie', cursive;
+    text-align: center;
+}
+
+#Titulo
+{
+    font-size: 60px;
+}
+
+#Inicio
+{
+    background-color: rgb(230, 79, 79);
+}
+
+#Celdas:hover
+{
+    
+    background-color: rgb(177, 9, 9);
+}
+
+.Vuelta
+{
+    font-size: 24px;
+}
+
+.Links
+{
+    font-size: 24px;
+    text-decoration: underline;
+    color: black;
+}
+
+.Links:hover
+{
+    color: white;
+    font-size: 30px;
+}
+
+#TitZwei
+{
+    font-size: 40px;
+}
+
+#TitKata
+{
+    font-size: 40px;
+}
+
+#TitGlad
+{
+    font-size: 40px;
+}
+
+table
+{
+    text-align: center;
+}
+
+.Texto
+{
+    font-size: 24px;
+}
