@@ -1,0 +1,114 @@
+#Bloque
+{
+    border: 1px solid black;
+    height: 604px;
+    width: 604px;
+}
+
+#cuadro1
+{
+    float: left;
+    background-color: green;
+    height:16%;
+    width: 66%;
+    border: 1px solid white;
+}
+
+#cuadro2
+{
+    float: right;
+    background-color: greenyellow;
+    height: 16%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro3
+{
+    float: left;
+    background-color: black;
+    height: 33%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro4
+{
+    float: left;
+    background-color: greenyellow;
+    height: 33%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro5
+{
+    float: right;
+    background-color: green;
+    height: 16%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro6
+{
+    float: right;
+    background-color: greenyellow;
+    height: 17%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro7
+{
+    float: left;
+    background-color: green;
+    height: 16%;
+    width: 66%;
+    border: 1px solid white;
+}
+
+#cuadro8
+{
+    float: right;
+    background-color: black;
+    height: 32%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro9
+{
+    float: left;
+    background-color: greenyellow;
+    height: 16%;
+    width: 66%;
+    border: 1px solid white;
+}
+
+#cuadro10
+{
+    float: right;
+    background-color: green;
+    height: 16%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro11
+{
+    float: left;
+    background-color: green;
+    height: 16%;
+    width: 33%;
+    border: 1px solid white;
+}
+
+#cuadro12
+{
+    float: left;
+    background-color: greenyellow;
+    height: 16%;
+    width: 33%;
+    border: 1px solid white;
+}

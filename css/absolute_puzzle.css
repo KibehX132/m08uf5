@@ -1,0 +1,105 @@
+#Bloque
+{
+    border: 1px solid black;
+    height: 604px;
+    width: 604px;
+}
+
+#cuadro1
+{
+    position: absolute;
+    background-color: green;
+    height: 99px;
+    width: 400px;
+    border: 1px solid white;
+
+}
+
+#cuadro2
+{
+    position: absolute;
+    background-color: greenyellow;
+    height: 99px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+#cuadro3
+{
+    background-color: black;
+    height: 199px;
+    width: 199px;
+    border: 1px solid white;
+}
+
+#cuadro4
+{
+    background-color: greenyellow;
+    height: 199px;
+    width: 199px;
+    border: 1px solid white;
+}
+
+#cuadro5
+{
+    background-color: green;
+    height: 99px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+#cuadro6
+{
+    background-color: greenyellow;
+    height: 98px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+#cuadro7
+{
+    background-color: green;
+    height: 98px;
+    width: 400px;
+    border: 1px solid white;
+}
+
+#cuadro8
+{
+    background-color: black;
+    height: 199px;
+    width: 199px;
+    border: 1px solid white;
+}
+
+#cuadro9
+{
+    background-color: greenyellow;
+    height: 99px;
+    width: 400px;
+    border: 1px solid white;
+}
+
+#cuadro10
+{
+    background-color: green;
+    height: 99px;
+    width: 199px;
+    border: 1px solid white;
+}
+
+#cuadro11
+{
+    background-color: green;
+    height: 99px;
+    width: 199px;
+    border: 1px solid white;
+}
+
+#cuadro12
+{
+    background-color: greenyellow;
+    height: 99px;
+    width: 199px;
+    border: 1px solid white;
+}
