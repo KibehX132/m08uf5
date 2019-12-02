@@ -1,0 +1,48 @@
+#Titulo
+{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background-color: brown;
+    border: 1px solid white;
+    animation: Banner 2s infinite;;
+}
+
+@keyframes Banner
+{
+    0%{ background-color: red;}
+    33%{ background-color: blue;}
+    66%{ background-color: chartreuse;}
+    100%{ background-color: red;}
+
+    0%{ color: black}
+    33%{ color: white}
+    66%{ color: black}
+    100%{ color: black}
+
+}
+
+#Lista
+{
+    float: left;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    background-color: aquamarine;;
+}
+
+#Medio
+{
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-color: blueviolet;
+}
+
+#Derecha
+{
+    float: right;
+    height: 100%;
+    width: 30%;
+    background-color: aquamarine;
+}
