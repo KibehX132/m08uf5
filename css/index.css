@@ -24,25 +24,29 @@
 
 #Lista
 {
-    float: left;
-    height: 100%;
-    width: 30%;
+    position: absolute;
+    height: 82%;
+    width: 325px;
     text-align: center;
-    background-color: aquamarine;;
+    background-color: aquamarine;
 }
 
 #Medio
 {
-    float: left;
-    height: 100%;
-    width: 40%;
+    position: absolute;
+    right: 334px;
+    height: 82%;
+    width: 1252px;
+    text-align: center;
     background-color: blueviolet;
+    
 }
 
 #Derecha
 {
-    float: right;
-    height: 100%;
-    width: 30%;
+    position: absolute;
+    right: 7px;
+    height: 82%;
+    width: 325px;
     background-color: aquamarine;
 }
