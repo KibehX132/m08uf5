@@ -1,0 +1,84 @@
+div
+{
+    width: 830px;
+    height: 1135px;
+    border: 1px solid black;
+    background-color: #fef2cd;
+}
+
+#cabecera
+{
+    position: absolute;
+}
+
+#tiempo
+{
+    position: absolute;
+    top: 162px;
+}
+
+#sirius
+{
+    position: absolute;
+    top: 247px;
+    left: 25px;
+    width: 800px;
+}
+
+#sighted
+{
+    position: absolute;
+    top: 386px;
+    left: 200px;
+}
+
+#derecha1
+{
+    position: absolute;
+    top: 387px;
+    left: 668px;  
+}
+
+#derecha2
+{
+    position: absolute;
+    top: 840px;
+    left: 668px;
+}
+
+#izquierda1
+{
+    position: absolute;
+    top: 386px;
+    left: 39px;
+}
+
+#izquierda2
+{
+    position: absolute;
+    top: 560px;
+    left: 39px;
+}
+
+#izquierda3
+{
+    position: absolute;
+    top: 840px;
+    left: 39px;
+}
+
+#piedefoto
+{
+    position: absolute;
+    top: 960px;
+    left: 195px;
+}
+
+#fotosirius
+{
+    position: absolute;
+    top: 535px;
+    left: 210px;
+    width: 418px;
+    height: 418px; 
+}
