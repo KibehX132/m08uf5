@@ -123,10 +123,15 @@ nav a:hover
 }
 
 /* part 4*/
+section
+{
+    display: inline-block;
+}
+
 article, aside
 {
     text-align: justify;
-    vertical-align: text-top;
+    vertical-align: top;
     display: inline-block;
 }
 
@@ -154,18 +159,20 @@ aside
     font-size: 0.9em;
     background-color: gray;
     box-shadow: 0px 2px 5px gray;
-    border: 5px solid;
+    border-radius: 5px;
     padding: 10px;
     color: white;
 }
 
 aside h1
 {
-
+    display: inline-block;
 }
 
 #arrow
 {
+top :25px;
+left: 250px;
 }
 
 #zozor_picture
