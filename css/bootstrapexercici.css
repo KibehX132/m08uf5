@@ -5,9 +5,7 @@ div[class^='col-']{
     background-color: green;
     height: 80px;
   }
-  .rojo {
-    background-color: red;
-  }
+
   .rosa{
       background-color: violet;
       height: 80px;
