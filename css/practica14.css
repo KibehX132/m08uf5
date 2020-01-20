@@ -1,0 +1,55 @@
+h1, h3
+{
+    text-align: center;
+}
+
+.titulo
+{
+    background-color: blue;
+    color: white;
+}
+
+.patrocinador
+{
+    background-color: white;
+    color: cyan;
+}
+
+.sponsor
+{
+    height: 200px;
+    width: 200px;
+}
+
+.foto
+{
+    height: 250px;
+    width: 100%
+}
+
+.big
+{
+    background-color: rosybrown;
+}
+
+.small
+{
+    background-color: burlywood;
+}
+
+.cuadro1
+{
+    background-color: aquamarine;
+}
+
+.cuadro2
+{
+    background-color: bisque;
+}
+
+.pie
+{
+    background-color: green;
+    color: white;
+    width: 100%;
+}
