@@ -1,0 +1,32 @@
+body
+{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    background-image: url(https://images4.alphacoders.com/650/650659.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 1080px;
+    color: white;
+    text-align: center;
+}
+
+header
+{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.intro
+{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+position: absolute;
+}
+
+.gifintro
+{
+    margin: right;
+    position: absolute;
+    left: ;
+}
