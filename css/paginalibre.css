@@ -21,12 +21,19 @@ header
     text-align: center;
     height: 400px;
     width: 600px;
-position: absolute;
+    position: absolute;
+    left: 372px;
 }
 
 .gifintro
 {
     margin: right;
     position: absolute;
-    left: ;
+    left: 780px;
+}
+
+.mapa
+{
+    position: absolute;
+    left: 200px;
 }
